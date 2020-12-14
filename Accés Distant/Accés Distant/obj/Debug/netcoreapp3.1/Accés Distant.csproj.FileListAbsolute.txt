@@ -17,3 +17,26 @@ C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp
 C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.dll
 C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.pdb
 C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.genruntimeconfig.cache
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\bin\Debug\netcoreapp3.1\Accés Distant.exe
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\bin\Debug\netcoreapp3.1\Accés Distant.deps.json
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\bin\Debug\netcoreapp3.1\Accés Distant.runtimeconfig.json
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\bin\Debug\netcoreapp3.1\Accés Distant.runtimeconfig.dev.json
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\bin\Debug\netcoreapp3.1\Accés Distant.dll
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\bin\Debug\netcoreapp3.1\Accés Distant.pdb
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\View\MainWindow.g.cs
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant_MarkupCompile.cache
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant_MarkupCompile.lref
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\View\MainWindow.baml
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.g.resources
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.AssemblyInfoInputs.cache
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.AssemblyInfo.cs
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.csproj.CoreCompileInputs.cache
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.dll
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.pdb
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.genruntimeconfig.cache
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.csprojAssemblyReference.cache
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\View\ConnexionWS.g.cs
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\View\ConnexionWS.baml
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\View\SaveWS.g.cs
+D:\Document\Cours\A3\UE2\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\View\SaveWS.baml

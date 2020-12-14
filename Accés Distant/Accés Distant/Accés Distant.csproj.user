@@ -7,7 +7,21 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MainWindow.xaml">
+    <Compile Update="View\ConnexionWS.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\SaveWS.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="View\ConnexionWS.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SaveWS.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
