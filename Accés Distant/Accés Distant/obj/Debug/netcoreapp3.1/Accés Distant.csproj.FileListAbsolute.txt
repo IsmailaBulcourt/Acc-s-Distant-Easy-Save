@@ -1,0 +1,19 @@
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\bin\Debug\netcoreapp3.1\Accés Distant.exe
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\bin\Debug\netcoreapp3.1\Accés Distant.deps.json
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\bin\Debug\netcoreapp3.1\Accés Distant.runtimeconfig.json
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\bin\Debug\netcoreapp3.1\Accés Distant.runtimeconfig.dev.json
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\bin\Debug\netcoreapp3.1\Accés Distant.dll
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\bin\Debug\netcoreapp3.1\Accés Distant.pdb
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.csprojAssemblyReference.cache
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant_MarkupCompile.cache
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant_MarkupCompile.lref
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.g.resources
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.AssemblyInfoInputs.cache
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.AssemblyInfo.cs
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.csproj.CoreCompileInputs.cache
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.dll
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.pdb
+C:\Users\GL703GS\source\repos\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.genruntimeconfig.cache
