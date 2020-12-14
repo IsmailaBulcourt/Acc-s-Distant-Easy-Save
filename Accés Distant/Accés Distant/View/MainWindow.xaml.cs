@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Accés_Distant.ViewModel;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.Linq;
+using System.Collections.Generic;
+using System.Collections;
+using System;
+using System.Diagnostics;
+using Accés_Distant.View;
 
 namespace Accés_Distant
 {
@@ -20,9 +15,36 @@ namespace Accés_Distant
     /// </summary>
     public partial class MainWindow : Window
     {
+        private bool IsFirstRender = true;
         public MainWindow()
         {
+            MainWindowViewModel mainWindowViewModel = new MainWindowViewModel(this);
             InitializeComponent();
+
+            if (IsFirstRender)
+            {
+              
+                TabItem connect = new TabItem();
+                connect.Header = "Connexion";
+                Frame tabFrameConnect = new Frame();
+                ConnexionWS connectionWS = new ConnexionWS();
+                tabFrameConnect.Content = connectionWS;
+                connect.Content = tabFrameConnect;
+                Menu.Items.Add(connect);
+
+                TabItem save = new TabItem();
+                save.Header = "Save";
+                Frame tabFrameSave = new Frame();
+                SaveWS saveWS = new SaveWS();
+                tabFrameSave.Content = saveWS;
+                save.Content = tabFrameSave;
+                Menu.Items.Add(save);
+                IsFirstRender = false;
+            }
+            }
+        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
