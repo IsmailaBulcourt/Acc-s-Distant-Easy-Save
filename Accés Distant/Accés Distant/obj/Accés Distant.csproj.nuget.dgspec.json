@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GL703GS\\source\\repos\\Accés Distant\\Accés Distant\\Accés Distant.csproj": {}
+    "C:\\wamp64\\www\\Projet\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GL703GS\\source\\repos\\Accés Distant\\Accés Distant\\Accés Distant.csproj": {
+    "C:\\wamp64\\www\\Projet\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GL703GS\\source\\repos\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
+        "projectUniqueName": "C:\\wamp64\\www\\Projet\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
         "projectName": "Accés Distant",
-        "projectPath": "C:\\Users\\GL703GS\\source\\repos\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
+        "projectPath": "C:\\wamp64\\www\\Projet\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
         "packagesPath": "C:\\Users\\GL703GS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GL703GS\\source\\repos\\Accés Distant\\Accés Distant\\obj\\",
+        "outputPath": "C:\\wamp64\\www\\Projet\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
