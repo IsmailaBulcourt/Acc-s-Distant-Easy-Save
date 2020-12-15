@@ -9,22 +9,22 @@ namespace Accés_Distant
 {
     class Client
     {
+        static byte[] bytes = new byte[1024];
+        static Socket sender= new Socket(AddressFamily.InterNetwork,SocketType.Stream,ProtocolType.Tcp);
         public static void StartClient(IPAddress ipAddress)
         {
             // Data buffer for incoming data.  
-            byte[] bytes = new byte[1024];
 
             // Connect to a remote device.  
             try
             {
-                
+
                 // Establish the remote endpoint for the socket.  
                 // This example uses port 11000 on the local computer.  
                 IPEndPoint remoteEP = new IPEndPoint(ipAddress, 25565);
 
                 // Create a TCP/IP  socket.  
-                Socket sender = new Socket(ipAddress.AddressFamily,
-                SocketType.Stream, ProtocolType.Tcp);
+                
 
                 // Connect the socket to the remote endpoint. Catch any errors.  
                 try
@@ -41,13 +41,15 @@ namespace Accés_Distant
                     int bytesSent = sender.Send(msg);
 
                     // Receive the response from the remote device.  
-                    int bytesRec = sender.Receive(bytes);
-                    MessageBox.Show("Echoed test = {0}",
-                        Encoding.ASCII.GetString(bytes, 0, bytesRec));
+                    //int bytesRec = sender.Receive(bytes);
+                    //int bytesName = sender.Receive(bytes);
 
-                    // Release the socket.  
-                    sender.Shutdown(SocketShutdown.Both);
-                    sender.Close();
+
+                    //MessageBox.Show("Echoed test = {0}", Encoding.ASCII.GetString(bytes, 0, bytesRec));
+                    //string Name = Encoding.ASCII.GetString(bytes, 32, bytesName);
+                    ReceiveData();
+
+                    
 
                 }
                 catch (ArgumentNullException ane)
@@ -71,5 +73,42 @@ namespace Accés_Distant
             }
         }
 
+
+        public static void SendPause()
+        {
+            byte[] msg = Encoding.ASCII.GetBytes("pause");
+            sender.Send(msg);
+        }
+        public static void SendExecuteWs()
+        {
+            byte[] msg = Encoding.ASCII.GetBytes("Execute");
+            sender.Send(msg);
+        }
+
+        public static void SendStop()
+        {
+            byte[] msg = Encoding.ASCII.GetBytes("Stop");
+            sender.Send(msg);
+        }
+
+        public static void ReleaseSocket()
+        {
+            sender.Shutdown(SocketShutdown.Both);
+            sender.Close();
+        }
+
+        public static void ReceiveData()
+        {
+            int bytesName= sender.Receive(bytes); 
+            int bytesProgression=sender.Receive(bytes);
+            int bytesType= sender.Receive(bytes);
+            string Name = Encoding.ASCII.GetString(bytes, 32, bytesName);
+            MessageBox.Show(Name);
+            int Progression = BitConverter.ToInt32(bytes);
+            MessageBox.Show(Progression.ToString());
+            string Type = Encoding.ASCII.GetString(bytes, 32, bytesType);
+            MessageBox.Show(Type);
+
+        }
     }
 }

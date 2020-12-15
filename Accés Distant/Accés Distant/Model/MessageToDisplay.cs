@@ -6,9 +6,9 @@ namespace Accés_Distant.Model
 {
     class MessageToDisplay
     {
-        string Name { get; set; }
-        int Progression { get; set; }
-        string TypeSave { get; set; }
+        public string Name { get; set; }
+        public double Progression { get; set; }
+        public string TypeSave { get; set; }
 
     }
 }

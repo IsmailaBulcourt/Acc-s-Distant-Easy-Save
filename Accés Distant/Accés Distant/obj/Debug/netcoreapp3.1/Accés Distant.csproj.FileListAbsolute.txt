@@ -47,7 +47,6 @@ C:\wamp64\www\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\bin\D
 C:\wamp64\www\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\bin\Debug\netcoreapp3.1\Accés Distant.dll
 C:\wamp64\www\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\bin\Debug\netcoreapp3.1\Accés Distant.pdb
 C:\wamp64\www\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\bin\Debug\netcoreapp3.1\Prism.dll
-C:\wamp64\www\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\Accés Distant.csprojAssemblyReference.cache
 C:\wamp64\www\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\View\ConnexionWS.g.cs
 C:\wamp64\www\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\View\MainWindow.g.cs
 C:\wamp64\www\Projet\Acc-s-Distant-Easy-Save\Accés Distant\Accés Distant\obj\Debug\netcoreapp3.1\View\SaveWS.g.cs

@@ -7,8 +7,52 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="SaveWS">
+    
+        <Grid Width="700" Height="100">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.1"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1.5*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
 
-    <Grid>
-        
-    </Grid>
+
+            <TextBlock Text="{Binding Path=Name, StringFormat='Save Name: {0}'}" Grid.Column="1" Grid.Row="0"/>
+            <TextBlock Text="{Binding Path=TypeSave, StringFormat='Save Type: {0}'}" Grid.Column="1" Grid.Row="1"/>
+            <ProgressBar Minimum="0" Maximum="100" Value="{Binding Path=State.Progression}" Grid.Column="1" Grid.Row="2" />
+            <TextBlock Text="{Binding Path=State.Progression, StringFormat='Progression: {0:N}%'}" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Column="1" Grid.Row="2" />
+            <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top">
+                <Button Margin="10,0" Background="Transparent" BorderBrush="Transparent" Command="{Binding ExecuteWSCommand}" CommandParameter="{Binding}">
+                    <Image Source="/Assets/play.png" Width="20" Height="20"/>
+                </Button>
+                <Button Margin="10,0" Background="Transparent" BorderBrush="Transparent" Command="{Binding PauseWSCommand}" CommandParameter="{Binding}">
+                    <Image Source="/Assets/pause.png"  Width="20" Height="20"/>
+
+                </Button>
+                <Button Margin="10,0" Background="Transparent" BorderBrush="Transparent"  Command="{Binding StopWSCommand}" CommandParameter="{Binding}">
+                    <Image Source="/Assets/stop.png"  Width="20" Height="15"/>
+
+                </Button>
+            </StackPanel>
+
+            <Border  Grid.Column="1" Grid.Row="3"  Height="5" >
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="5" Color="AliceBlue" ShadowDepth="2"/>
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint = "0,0.5" EndPoint = "1,0.5" >
+                        <LinearGradientBrush.GradientStops>
+                            <GradientStop Offset = "0.0" Color = "DarkBlue" />
+                            <GradientStop Offset = "1.0" Color = "SkyBlue" />
+                        </LinearGradientBrush.GradientStops>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+        </Grid>
+    
 </Page>
