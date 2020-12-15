@@ -2,13 +2,14 @@
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Windows;
 
 
 namespace Accés_Distant
 {
     class Client
     {
-        public static void StartClient()
+        public static void StartClient(IPAddress ipAddress)
         {
             // Data buffer for incoming data.  
             byte[] bytes = new byte[1024];
@@ -16,22 +17,21 @@ namespace Accés_Distant
             // Connect to a remote device.  
             try
             {
+                
                 // Establish the remote endpoint for the socket.  
                 // This example uses port 11000 on the local computer.  
-                IPHostEntry ipHostInfo = Dns.GetHostEntry(Dns.GetHostName());
-                IPAddress ipAddress = ipHostInfo.AddressList[0];
-                IPEndPoint remoteEP = new IPEndPoint(ipAddress, 11000);
+                IPEndPoint remoteEP = new IPEndPoint(ipAddress, 25565);
 
                 // Create a TCP/IP  socket.  
                 Socket sender = new Socket(ipAddress.AddressFamily,
-                    SocketType.Stream, ProtocolType.Tcp);
+                SocketType.Stream, ProtocolType.Tcp);
 
                 // Connect the socket to the remote endpoint. Catch any errors.  
                 try
                 {
                     sender.Connect(remoteEP);
 
-                    Console.WriteLine("Socket connected to {0}",
+                    MessageBox.Show("Socket connected to {0}",
                         sender.RemoteEndPoint.ToString());
 
                     // Encode the data string into a byte array.  
@@ -42,7 +42,7 @@ namespace Accés_Distant
 
                     // Receive the response from the remote device.  
                     int bytesRec = sender.Receive(bytes);
-                    Console.WriteLine("Echoed test = {0}",
+                    MessageBox.Show("Echoed test = {0}",
                         Encoding.ASCII.GetString(bytes, 0, bytesRec));
 
                     // Release the socket.  
@@ -52,21 +52,22 @@ namespace Accés_Distant
                 }
                 catch (ArgumentNullException ane)
                 {
-                    Console.WriteLine("ArgumentNullException : {0}", ane.ToString());
+                    MessageBox.Show("ArgumentNullException : {0}", ane.ToString());
                 }
                 catch (SocketException se)
                 {
-                    Console.WriteLine("SocketException : {0}", se.ToString());
+                    MessageBox.Show("SocketException : {0}");
+                    MessageBox.Show(se.ToString());
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine("Unexpected exception : {0}", e.ToString());
+                    MessageBox.Show("Unexpected exception : {0}", e.ToString());
                 }
 
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.ToString());
+                MessageBox.Show(e.ToString());
             }
         }
 

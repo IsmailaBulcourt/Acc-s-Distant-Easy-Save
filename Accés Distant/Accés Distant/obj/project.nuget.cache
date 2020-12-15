@@ -1,12 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jEePqJFCfwB+J1Dd+9js6GH98PI2Qupj5st2VKMqdHJQnDln5JVRemCIvk0GH/QacHlGsIZWM0rUNKnNUdRg/Q==",
+  "dgSpecHash": "iB+odaVZtbHwyV2TnKl4xYjj5+GT/4hjXYFf6IHgZy9Qb8hCX/Q2C0yjivlXkPgOEE50ajvs7vdU0eukddd/SQ==",
   "success": true,
-  "projectFilePath": "D:\\Document\\Cours\\A3\\UE2\\Projet\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
+  "projectFilePath": "C:\\wamp64\\www\\Projet\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\pauli\\.nuget\\packages\\prism.core\\8.0.0.1909\\prism.core.8.0.0.1909.nupkg.sha512",
-    "C:\\Users\\pauli\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\pauli\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+    "C:\\Users\\GL703GS\\.nuget\\packages\\prism.core\\8.0.0.1909\\prism.core.8.0.0.1909.nupkg.sha512"
   ],
   "logs": []
 }

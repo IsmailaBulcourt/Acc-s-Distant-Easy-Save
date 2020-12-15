@@ -21,6 +21,8 @@ namespace Accés_Distant.View
       
         public ConnexionWS()
         {
+            Accés_Distant.ViewModel.ConexionViewModel conexionViewModel = new ViewModel.ConexionViewModel();
+            this.DataContext = conexionViewModel;
             InitializeComponent();
         }
     }

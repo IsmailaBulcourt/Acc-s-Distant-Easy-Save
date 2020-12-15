@@ -42,7 +42,7 @@
 
 
         <Label Content="Addresse Ip" Grid.Row="0" Grid.Column="1"/>
-        <TextBox Name="MyTextBox" Grid.Row="1" Grid.Column="1" Width="250" Height="25" BorderThickness="0,0,0,2" BorderBrush="#C5C4C4"/>
+        <TextBox Name="MyTextBox" Text="{Binding Ad}" Grid.Row="1" Grid.Column="1" Width="250" Height="25" BorderThickness="0,0,0,2" BorderBrush="#C5C4C4"/>
         <Button Command="{Binding CreateConnexionCommand}" Content="se connecter" Grid.Row="2" Grid.Column="1">
             <Button.Resources>
                 <Style TargetType="Border">
