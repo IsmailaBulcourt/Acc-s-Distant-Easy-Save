@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Accés_Distant.ViewModel;
 
 namespace Accés_Distant.View
 {
@@ -21,6 +22,8 @@ namespace Accés_Distant.View
       
         public ConnexionWS()
         {
+            ConexionViewModel conexionViewModel = new ConexionViewModel();
+            this.DataContext = conexionViewModel;
             InitializeComponent();
         }
     }

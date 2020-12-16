@@ -9,6 +9,40 @@
       Title="SaveWS">
 
     <Grid>
-        
+        <ListBox x:Name="ListExecuteWS" ItemsSource="{Binding ListSave}" SelectionMode="Multiple" BorderThickness="0" Background="Transparent" Margin="0,0,0,22" >
+            <ListBox.ItemTemplate>
+
+                <DataTemplate>
+                    <Grid Width="700" Height="50">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.1"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="0.1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Text="{Binding Path=SaveName, StringFormat='Save Name: {0}'}" Grid.Column="1" Grid.Row="0"/>
+                        <TextBlock Text="{Binding Path=SaveType, StringFormat='Save Type: {0}'}" Grid.Column="1" Grid.Row="1"/>
+                        <Border  Grid.Column="1" Grid.Row="2"  Height="5" >
+                            <Border.Effect>
+                                <DropShadowEffect BlurRadius="5" Color="AliceBlue" ShadowDepth="2"/>
+                            </Border.Effect>
+                            <Border.Background>
+                                <LinearGradientBrush StartPoint = "0,0.5" EndPoint = "1,0.5" >
+                                    <LinearGradientBrush.GradientStops>
+                                        <GradientStop Offset = "0.0" Color = "DarkBlue" />
+                                        <GradientStop Offset = "1.0" Color = "SkyBlue" />
+                                    </LinearGradientBrush.GradientStops>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                        </Border>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
     </Grid>
 </Page>

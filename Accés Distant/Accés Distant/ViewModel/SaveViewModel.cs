@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Accés_Distant.ViewModel
 {
-    class SaveViewModel
+    public class SaveViewModel : ViewModelBase
     {
     }
 }

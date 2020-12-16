@@ -6,9 +6,23 @@ using System.Text;
 
 namespace Accés_Distant
 {
-    class Client
+    public class Client
     {
-        public static void StartClient()
+        public Socket clientSocket { get; set; }
+        public void Connection(string addressIP, int port)
+        {
+            clientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            var ipaddres = IPAddress.Parse(addressIP);
+            var ipend = new IPEndPoint(ipaddres, port);
+            clientSocket.Connect(ipend);
+        }
+        public string ListenConnection()
+        {
+            byte[] bytes = new byte[1024];
+            clientSocket.Receive(bytes);
+            return Encoding.ASCII.GetString(bytes);
+        }
+        public void StartClient()
         {
             // Data buffer for incoming data.  
             byte[] bytes = new byte[1024];

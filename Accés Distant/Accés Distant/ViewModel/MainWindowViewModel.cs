@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Accés_Distant.ViewModel
 {
-    class MainWindowViewModel 
+    public class MainWindowViewModel : ViewModelBase
     {
         public MainWindowViewModel(MainWindow mainWindow)
         {
-           
+            ListSave = new System.Collections.ObjectModel.ObservableCollection<Model.SaveToDisplay>();
         }
     }
 }
