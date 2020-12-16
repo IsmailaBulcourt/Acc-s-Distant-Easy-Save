@@ -27,6 +27,21 @@
 
                         <TextBlock Text="{Binding Path=SaveName, StringFormat='Save Name: {0}'}" Grid.Column="1" Grid.Row="0"/>
                         <TextBlock Text="{Binding Path=SaveType, StringFormat='Save Type: {0}'}" Grid.Column="1" Grid.Row="1"/>
+                        <ProgressBar Minimum="0" Maximum="100" Value="{Binding Path=State.Progression}" Grid.Column="1" Grid.Row="2" />
+                        <TextBlock Text="{Binding Path=Progression, StringFormat='Progression: {0:N}%'}" HorizontalAlignment="Center" VerticalAlignment="Center"  Grid.Column="1" Grid.Row="2" />
+                        <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Top">
+                            <Button Margin="10,0" Background="Transparent" BorderBrush="Transparent" Command="{Binding ExecuteWSCommand}" CommandParameter="{Binding}">
+                                <Image Source="/Assets/play.png" Width="20" Height="20"/>
+                            </Button>
+                            <Button Margin="10,0" Background="Transparent" BorderBrush="Transparent" Command="{Binding PauseWSCommand}" CommandParameter="{Binding}">
+                                <Image Source="/Assets/pause.png"  Width="20" Height="20"/>
+
+                            </Button>
+                            <Button Margin="10,0" Background="Transparent" BorderBrush="Transparent"  Command="{Binding StopWSCommand}" CommandParameter="{Binding}">
+                                <Image Source="/Assets/stop.png"  Width="20" Height="15"/>
+
+                            </Button>
+                        </StackPanel>
                         <Border  Grid.Column="1" Grid.Row="2"  Height="5" >
                             <Border.Effect>
                                 <DropShadowEffect BlurRadius="5" Color="AliceBlue" ShadowDepth="2"/>
