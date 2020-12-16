@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iB+odaVZtbHwyV2TnKl4xYjj5+GT/4hjXYFf6IHgZy9Qb8hCX/Q2C0yjivlXkPgOEE50ajvs7vdU0eukddd/SQ==",
+  "dgSpecHash": "js94/fnuLPEEDnqP50ePSL4ikdK48juj/9Y/gNYjNnM8EBWITdbcwBBEB4YJR6GDDNNbM6wX9btMKP1OT8iL/Q==",
   "success": true,
-  "projectFilePath": "C:\\wamp64\\www\\Projet\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
+  "projectFilePath": "C:\\Users\\GL703GS\\source\\repos\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\GL703GS\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\GL703GS\\.nuget\\packages\\prism.core\\8.0.0.1909\\prism.core.8.0.0.1909.nupkg.sha512"
   ],
   "logs": []
