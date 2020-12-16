@@ -43,20 +43,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pauli\\.nuget\\packages\\": {}
+    "C:\\Users\\GL703GS\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Document\\Cours\\A3\\UE2\\Projet\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
+      "projectUniqueName": "C:\\Users\\GL703GS\\source\\repos\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
       "projectName": "Accés Distant",
-      "projectPath": "D:\\Document\\Cours\\A3\\UE2\\Projet\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
-      "packagesPath": "C:\\Users\\pauli\\.nuget\\packages\\",
-      "outputPath": "D:\\Document\\Cours\\A3\\UE2\\Projet\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\obj\\",
+      "projectPath": "C:\\Users\\GL703GS\\source\\repos\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
+      "packagesPath": "C:\\Users\\GL703GS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GL703GS\\source\\repos\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\pauli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\GL703GS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -96,16 +101,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.10, 3.1.10]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -114,7 +109,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
