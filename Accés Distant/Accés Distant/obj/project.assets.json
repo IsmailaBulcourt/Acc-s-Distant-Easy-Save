@@ -49,11 +49,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\wamp64\\www\\Projet\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
+      "projectUniqueName": "C:\\Users\\GL703GS\\source\\repos\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
       "projectName": "Accés Distant",
-      "projectPath": "C:\\wamp64\\www\\Projet\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
+      "projectPath": "C:\\Users\\GL703GS\\source\\repos\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\Accés Distant.csproj",
       "packagesPath": "C:\\Users\\GL703GS\\.nuget\\packages\\",
-      "outputPath": "C:\\wamp64\\www\\Projet\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\obj\\",
+      "outputPath": "C:\\Users\\GL703GS\\source\\repos\\Acc-s-Distant-Easy-Save\\Accés Distant\\Accés Distant\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
