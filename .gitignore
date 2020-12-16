@@ -1,3 +1,11 @@
 
 Accés Distant/.vs/Accés Distant/v16/.suo
 *.json
+Accés Distant/.vs/Accés Distant/v16/.suo
+*.json
+*.dll
+*.pdb
+*.cache
+*.txt
+*.resources
+*.lref
